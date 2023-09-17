@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db_practice?serverTimezone=Asia/Seoul
+    username: root
+    password: fhftl1qkf!
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    open-in-view: true
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  port: 8081
